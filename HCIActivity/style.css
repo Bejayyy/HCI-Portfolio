@@ -1,0 +1,246 @@
+body {
+    background-image: url(backge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}.home{
+
+    height: 100vh;
+}
+
+.logo img {
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    margin-left: 70px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+
+ul li {
+    margin: 0 10px;
+    list-style: none;
+    margin-right: 30px;
+    transition: .3sec ease;
+    
+}
+ul li a:hover{
+    color: white;
+    border: 1px solid orangered;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+.name {
+    margin-left: 650px;
+    margin-top: 170px;
+    width: 585px;
+    height: auto;
+    text-shadow: 2px 2px 4px black; 
+}
+
+   
+   
+
+.Fname{
+    margin-left:75px;
+    color: white;
+    font-size: 60px;
+    padding: 0px 0px;
+    text-align: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p{
+    padding: 0px 0px ;
+    margin-left:130px;
+  
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+p span{
+    color: orangered;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
+    text-shadow: 2px 2px 4px black;
+}
+.button1{
+    background-color: orangered;
+    width: 90px;
+    height: 30px;
+    margin-left: 470px;
+   border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+   
+}
+.button1 a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 0px 5px 0px;
+}
+.button1:hover {
+    background-color: black;
+}
+
+.button1:hover a {
+    color: white; /* Change text color to white on hover */
+}
+#about {
+    padding: 40px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #000; /* Black background */
+    color: #FFA500; /* Orange text */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.3); /* Orange shadow */
+}
+
+.text-content {
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #FFA500; /* Orange title */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFF; /* White text for readability */
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .text-content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .profile img {
+        width: 150px;
+    }
+}
+#projects {
+    padding: 40px 10%;
+    background-color: #000; /* Black background */
+    color: #FFA500; /* Orange text */
+    text-align: center;
+  
+}
+
+#projects .title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #FFA500;
+}
+
+.experience-details-container {
+    display: flex;
+   
+    justify-content: center;
+    gap: 100px;
+   
+
+}
+
+.details-container {
+    background-color: #1A1A1A; /* Dark container background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.3);
+    max-width: 200px;
+    text-align: center;
+    
+    transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+    transform: translateY(-10px);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.project-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.project-btn {
+    background-color: #FFA500;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #FF8C00; /* Darker orange */
+}
+
+
+
+@media (max-width: 768px) {
+    .experience-details-container {
+        flex-direction: column;
+    }
+
+    .details-container {
+        max-width: 100%;
+    }
+}
